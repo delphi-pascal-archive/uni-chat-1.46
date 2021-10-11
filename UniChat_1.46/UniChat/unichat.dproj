@@ -1,0 +1,85 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{822bc5cf-8976-4083-9adb-398155e4071d}</ProjectGuid>
+    <MainSource>unichat.dpr</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>unichat.exe</DCC_DependencyCheckOutputName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_AssertionsAtRuntime>False</DCC_AssertionsAtRuntime>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_Define>RVDONOTUSESTYLETEMPLATES;RVDONOTUSESMARTPOPUP;RVDONOTUSEANIMATION;RVDONOTUSETABS;RVDONOTUSEHTML;RVDONOTUSEJUSTIFY;RVDONOTUSECHARSPACING;RVDONOTUSETABLES;RVDONOTUSEDRAGDROP;RVDONOTUSEITEMHINTS;RVDONOTUSELINEARPOSITIONS;RVDONOTUSELIVESPELL;RVDONOTUSELISTS;RVDONOTUSERVF;RVDONOTUSERTFIMPORT;RELEASE</DCC_Define>
+    <DCC_Description>UniChat - (c) 2003-2006 Dentall</DCC_Description>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_AssertionsAtRuntime>False</DCC_AssertionsAtRuntime>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_Define>DEBUG</DCC_Define>
+    <DCC_Description>UniChat - (c) 2003-2006 Dentall</DCC_Description>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType>VCLApplication</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="RunParams">-IP 192.168.1.136 0</Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">True</VersionInfo><VersionInfo Name="MajorVer">1</VersionInfo><VersionInfo Name="MinorVer">46</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">264</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1049</VersionInfo><VersionInfo Name="CodePage">1251</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="FileVersion">1.46.0.264</VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.46</VersionInfoKeys><VersionInfoKeys Name="CompanyName"></VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">unichat.dpr</Source></Source></Delphi.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="unichat.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="about.pas">
+      <Form>fmAbout</Form>
+    </DCCReference>
+    <DCCReference Include="chatutils.pas" />
+    <DCCReference Include="commentform.pas">
+      <Form>fmComment</Form>
+    </DCCReference>
+    <DCCReference Include="DynaStackProtect.pas" />
+    <DCCReference Include="ExecuteThread.pas" />
+    <DCCReference Include="fmSettings.pas">
+      <Form>fmSetup</Form>
+    </DCCReference>
+    <DCCReference Include="GlobalConst.pas" />
+    <DCCReference Include="infoform.pas">
+      <Form>fmInfo</Form>
+    </DCCReference>
+    <DCCReference Include="LogForm.pas">
+      <Form>fmMsgLog</Form>
+    </DCCReference>
+    <DCCReference Include="main.pas">
+      <Form>fmMain</Form>
+    </DCCReference>
+    <DCCReference Include="recForm.pas">
+      <Form>fmRec</Form>
+    </DCCReference>
+    <DCCReference Include="regForm.pas">
+      <Form>fmRegistration</Form>
+    </DCCReference>
+    <DCCReference Include="regInfoForm.pas">
+      <Form>fmRegInfo</Form>
+    </DCCReference>
+    <DCCReference Include="RoomsForm.pas">
+      <Form>fmRooms</Form>
+    </DCCReference>
+    <DCCReference Include="sendform.pas">
+      <Form>fmSend</Form>
+    </DCCReference>
+    <DCCReference Include="SendMassForm.pas">
+      <Form>fmMassSend</Form>
+    </DCCReference>
+    <DCCReference Include="topicform.pas">
+      <Form>fmTopic</Form>
+    </DCCReference>
+    <DCCReference Include="UCPlugin.pas" />
+    <DCCReference Include="udpsock.pas" />
+  </ItemGroup>
+</Project>

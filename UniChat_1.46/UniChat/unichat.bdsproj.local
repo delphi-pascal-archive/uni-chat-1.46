@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2005.09.15 20:34:09.234.pas,D:\Dentall\Delphi7_VCL\UChat\Unit1.pas=D:\Dentall\Delphi7_VCL\UChat\regForm.pas</Transaction>
+    <Transaction>2005.09.15 20:34:09.234.dfm,D:\Dentall\Delphi7_VCL\UChat\Unit1.dfm=D:\Dentall\Delphi7_VCL\UChat\regForm.dfm</Transaction>
+    <Transaction>2005.09.25 00:16:37.968.pas,D:\Dentall\Delphi7_VCL\UChat\multinst.pas=</Transaction>
+    <Transaction>2005.09.25 00:19:38.703.pas,D:\Dentall\Delphi7_VCL\UChat\Unit1.pas=D:\Dentall\Delphi7_VCL\UChat\multiinst.pas</Transaction>
+    <Transaction>2005.10.01 21:32:27.671.pas,D:\Dentall\Delphi7_VCL\UChat\Unit1.pas=D:\Dentall\Delphi7_VCL\UChat\DynaForms.pas</Transaction>
+    <Transaction>2005.10.01 21:51:21.765.pas,D:\Dentall\Delphi7_VCL\UChat\DynaForms.pas=</Transaction>
+    <Transaction>2005.10.02 14:21:19.609.pas,D:\Dentall\Delphi7_VCL\UChat\Unit1.pas=D:\Dentall\Delphi7_VCL\UChat\topicform.pas</Transaction>
+    <Transaction>2005.10.02 14:21:19.609.dfm,D:\Dentall\Delphi7_VCL\UChat\Unit1.dfm=D:\Dentall\Delphi7_VCL\UChat\topicform.dfm</Transaction>
+    <Transaction>2005.10.02 15:26:03.452.pas,D:\Dentall\Delphi7_VCL\UChat\recForm.pas=</Transaction>
+    <Transaction>2005.10.02 15:26:03.452.dfm,D:\Dentall\Delphi7_VCL\UChat\recForm.dfm=</Transaction>
+    <Transaction>2005.10.10 18:57:16.734.pas,D:\Dentall\Delphi7_VCL\UChat\multiinst.pas=</Transaction>
+    <Transaction>2005.10.12 18:49:47.781.pas,D:\Dentall\Delphi7_VCL\UChat\Unit1.pas=D:\Dentall\Delphi7_VCL\UChat\regInfoForm.pas</Transaction>
+    <Transaction>2005.10.12 18:49:47.796.dfm,D:\Dentall\Delphi7_VCL\UChat\Unit1.dfm=D:\Dentall\Delphi7_VCL\UChat\regInfoForm.dfm</Transaction>
+    <Transaction>2005.10.28 21:00:04.484.pas,D:\Dentall\Delphi7_VCL\UChat\Unit1.pas=D:\Dentall\Delphi7_VCL\UChat\MsgWindFuncs.pas</Transaction>
+    <Transaction>2006.01.07 22:52:08.328.pas,D:\Dentall\Delphi7_VCL\UChat\MsgWindFuncs.pas=</Transaction>
+  </Transactions>
+</BorlandProject>
